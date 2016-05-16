@@ -201,11 +201,11 @@ void _IQShowLog(NSString *logString);
 #pragma mark - Initializing functions
 
 /** Override +load method to enable KeyboardManager when class loader load IQKeyboardManager. Enabling when app starts (No need to write any code) */
-+(void)load
-{
-    //Enabling IQKeyboardManager.
-    [[IQKeyboardManager sharedManager] setEnable:YES];
-}
+//+(void)load
+//{
+//    //Enabling IQKeyboardManager.
+//    [[IQKeyboardManager sharedManager] setEnable:YES];
+//}
 
 /*  Singleton Object Initialization. */
 -(instancetype)init
